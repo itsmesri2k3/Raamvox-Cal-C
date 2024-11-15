@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: whitesmoke;
+  background: #121212;
 }
 .container {
   position: absolute;
@@ -27,7 +27,8 @@ body {
   text-align: right;
   margin-bottom: 10px;
   font-size: 70px;
-  color: #000e1a;
+  color: whitesmoke;
+  background-color: #252525;
   pointer-events: none;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -45,7 +46,8 @@ body {
   border: none;
   font-size: 20px;
   cursor: pointer;
-  background-color: white;
+  background-color: #252525;
+  color: whitesmoke;
   height: 100%;
   width: 100%;
 }
@@ -53,5 +55,5 @@ body {
   transform: scale(0.99);
 }
 .operator {
-  color: #2f9fff;
+  color: #2f9fff !important;
 }
