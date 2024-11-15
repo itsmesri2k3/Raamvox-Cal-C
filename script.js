@@ -27,3 +27,14 @@ buttons.forEach((button) => {
   //Button click listener calls calculate() with dataset value as argument.
   button.addEventListener("click", (e) => calculate(e.target.dataset.value));
 });
+
+document.querySelectorAll('.buttons button').forEach(button => {
+  button.addEventListener('click', event => {
+    event.preventDefault(); // Prevent default behavior
+    event.target.blur(); // Remove focus from the button
+  });
+});
+
+document.querySelectorAll('input').forEach(input => {
+  input.setAttribute('readonly', true); // Prevent keyboard activation
+});

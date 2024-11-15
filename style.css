@@ -51,6 +51,9 @@ body {
   color: whitesmoke;
   height: 100%;
   width: 100%;
+  pointer-events: auto; 
+  outline: none;
+  user-select: none;
 }
 .buttons button:active {
   transform: scale(0.99);
