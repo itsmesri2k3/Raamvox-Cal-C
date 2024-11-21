@@ -38,3 +38,7 @@ document.querySelectorAll('.buttons button').forEach(button => {
 document.querySelectorAll('input').forEach(input => {
   input.setAttribute('readonly', true); // Prevent keyboard activation
 });
+
+window.onload = function() {
+  document.body.style.opacity = '1';
+};
